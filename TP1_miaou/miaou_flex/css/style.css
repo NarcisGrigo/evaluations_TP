@@ -15,10 +15,10 @@
     justify-content: space-evenly;
 }
 
-main {
+#container {
     background-color: #29347b;
     font-family: Shadows Into Light, cursive;
-    width: 50%;
+    width: 60%;
     margin: auto;
     text-align: center;
 }
@@ -34,3 +34,24 @@ h1 {
 p {
     font-size: 20px;
 }
+
+@media (max-width: 960px) {
+    #container {
+        width: 100%;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    section>div {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    section>div {
+        width: 100%;
+    }
+}
+
