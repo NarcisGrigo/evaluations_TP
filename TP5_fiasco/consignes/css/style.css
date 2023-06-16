@@ -1,1 +1,313 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  color: white;
+}
+
+ul > li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+/*  H E A D E R  */
+
+h2 {
+  font-family: "Dancing Script", cursive;
+}
+
+header {
+  background-image: url(/img/eggs.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+  height: 600px;
+}
+
+.opacity {
+  background: rgba(71, 71, 71, 0.412);
+  height: 565px;
+}
+
+/*  N A V  */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fiasco {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 50px;
+}
+
+.fiasco > li {
+  list-style-type: none;
+}
+
+.fiasco > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.hdr_liste {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.hdr_liste > li {
+  list-style-type: none;
+  padding: 0px 20px;
+}
+
+.hdr_liste > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.border {
+  border: 1px solid orange;
+  padding: 10px;
+}
+
+/*  T O P    O F    I M A G E */
+
+.wlc {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: rgb(253, 185, 57);
+  font-size: 40px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 80px;
+}
+
+.ms {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 20px;
+  color: rgb(240, 240, 240);
+}
+
+/*  M A I N  */
+
+.title {
+  color: rgb(253, 185, 57);
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+
+.more > a {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(253, 185, 57);
+}
+
+.first {
+  display: flex;
+  margin-left: 260px;
+}
+
+.idkyet {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.idkyet > h4,
+p {
+  margin: 20px;
+}
+
+.second {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 300px;
+  margin-top: 70px;
+}
+
+.idkyet_2 {
+  margin-top: 20px;
+}
+
+.idkyet_2 > h4,
+p {
+  margin: 20px;
+}
+
+/*  I M A G E S  */
+
+.chicken_2 {
+  border: 1px solid orange;
+  padding: 30px 30px 0 0;
+}
+
+.burger_2 {
+  border: 1px solid orange;
+  padding: 30px 0 0 30px;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/*  M E N U  */
+
+.idkyet_3 {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.idkyet_3 > h4,
+p {
+  margin: 20px;
+}
+
+.l_menu > ul,
+li {
+  display: flex;
+  justify-content: space-evenly;
+  opacity: 0.5;
+}
+
+.first_two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second_two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.flex_2 {
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+/*  C H E F  */
+
+.chef {
+    display: flex;
+    justify-content: space-around;
+}
