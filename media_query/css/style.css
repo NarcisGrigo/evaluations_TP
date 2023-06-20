@@ -89,6 +89,225 @@ video {
   box-sizing: border-box;
 }
 
-body {
-    margin: auto;
+.container {
+  width: 1440px;
+  margin: auto;
+}
+
+header {
+  background-image: url(../img/gateau-anniversaire-panda1-500x500.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section figure {
+  width: 300px;
+  height: 300px;
+  margin: 100px 20px;
+  border: 2px solid black;
+}
+
+section figure img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: violet;
+}
+
+.mars {
+  border-radius: 50px;
+  background: rgb(149, 66, 172);
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  translate: 230px -350px;
+  color: white;
+}
+
+.photo {
+  background: rgb(149, 66, 172);
+  padding: 5px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  translate: 10px -150px;
+  color: white;
+}
+
+.sponsor {
+  translate: 40px -315px;
+}
+
+.circle {
+  translate: 10px -290px;
+  font-size: 25px;
+}
+
+.icon {
+  translate: 250px -330px;
+  font-size: 30px;
+}
+
+.promo {
+  background: red;
+  color: white;
+  text-align: center;
+  width: 150px;
+  height: 25px;
+  translate: 0px -70px;
+}
+
+.desc {
+  translate: 0px -60px;
+}
+
+.red {
+  translate: 0px -50px;
+  color: red;
+}
+
+.origine {
+  translate: 0px -40px;
+  color: gray;
+}
+
+.img2 {
+  display: none;
+}
+
+.img4 {
+  display: none;
+}
+
+.img6 {
+  display: none;
+}
+
+.img8 {
+  display: none;
+}
+
+.img10 {
+  display: none;
+}
+
+.img12 {
+  display: none;
+}
+
+.img14 {
+  display: none;
+}
+
+.img16 {
+  display: none;
+}
+
+/*  P O U R     L E S     G R A N D S   E C R A N S  */
+
+@media (max-width: 1440px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/*  P O U R    L E S   T A B L E T T E S  */
+
+@media (max-width: 960px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    display: none;
+  }
+}
+
+/*  P O U R   L E S    P O R T A B L E S  */
+
+@media (max-width: 760px) {
+  .icon {
+   translate: 300px -300px;
+  }
+
+  .container {
+    width: 100%;
+  }
+  header {
+    display: none;
+  }
+
+  .img1 {
+    display: none;
+  }
+  .img2 {
+    display: block;
+  }
+
+  .img3 {
+    display: none;
+  }
+
+  .img4 {
+    display: block;
+  }
+
+  .img5 {
+    display: none;
+  }
+
+  .img6 {
+    display: block;
+  }
+
+  .img7 {
+    display: none;
+  }
+
+  .img8 {
+    display: block;
+  }
+
+  .img9 {
+    display: none;
+  }
+
+  .img10 {
+    display: block;
+  }
+
+  .img11 {
+    display: none;
+  }
+
+  .img12 {
+    display: block;
+  }
+
+  .img13 {
+    display: none;
+  }
+
+  .img14 {
+    display: block;
+  }
+
+  .img15 {
+    display: none;
+  }
+
+  .img16 {
+    display: block;
+  }
 }
