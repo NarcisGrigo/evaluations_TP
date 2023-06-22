@@ -1,0 +1,261 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  width: 80%;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*  H E A D E R  */
+
+header {
+  background-image: url(/consignes/img/dinosaure.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1120px;
+}
+
+.climatise {
+  translate: 1560px 110px;
+}
+
+.logo {
+  display: flex;
+  margin: auto;
+  translate: 0px 250px;
+  width: 700px;
+}
+
+.hdr_liste {
+  display: flex;
+  justify-content: center;
+  translate: 20px -1015px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100px;
+  align-items: center;
+  width: 1800px;
+}
+
+.hdr_liste a {
+  color: white;
+  margin: 50px;
+}
+
+.english {
+  translate: -46px 0px;
+  color: rgb(77, 76, 76);
+}
+
+.box {
+  background-color: rgb(67, 122, 158);
+  padding: 5px;
+  width: 160px;
+  translate: 15px;
+}
+
+.icon {
+  translate: -115px 0px;
+  color: white;
+}
+
+/*  M A I N  */
+
+.envlope {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main_1 {
+  text-align: center;
+}
+
+.main_1 h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.main_1 img {
+  margin-bottom: 20px;
+}
+
+/*  M A I N     2  */
+
+.main_2 {
+  text-align: center;
+}
+
+.main_2 button {
+  padding: 10px;
+  background-color: #1c5f81;
+  color: white;
+  margin-bottom: 150px;
+}
+
+/*  M A I N     3  */
+
+.main_3 button {
+  padding: 10px;
+  background-color: #1c5f81;
+  color: white;
+}
+
+.main_3 h3 {
+  font-size: 40px;
+}
+
+.card {
+  translate: -10px 6px;
+}
+
+/*  M A I N     4  */
+
+.main_4 h3 {
+  font-size: 40px;
+}
+
+.main_4 img {
+  width: 50px;
+  translate: 0px 5px;
+}
+
+.bus {
+  translate: -10px 6px;
+}
+
+hr {
+  width: 600px;
+  translate: -370px 0px;
+}
+
+/*  M A I N      5  */
+
+.main_5 {
+    translate: 110px 0px;
+}
+
+.main_5 h3 {
+  font-size: 40px;
+}
+
+.clock {
+  translate: 0px 5px;
+}
+
+/*  M E D I A     Q U E R Y  */
+
+@media (min-width: 1400px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 100%;
+  }
+}

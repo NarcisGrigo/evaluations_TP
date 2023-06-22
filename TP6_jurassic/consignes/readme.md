@@ -1,4 +1,4 @@
-# Jurassic - Consignes
+ # Jurassic - Consignes
 
 ## 0- Tout d'abord
 - cette intégration est un **_exercice en temps limité_**
@@ -52,7 +52,7 @@
           - regardez :focus
 
      - **bonus n°3** : les bordures ne s'affichent que sur le haut du lien choisi
-     
+
 ## 7- Textes
 
 REGARDEZ UN DINOSAURE
@@ -62,7 +62,7 @@ DROIT DANS LES YEUX !
 Jurassic World/L'expositionprolonge l'experience des spectateurs en associant des environnement immersifs à des éléments éducatifs et scientifiques interactifs.
 Inspiré de l'un des plus grands blockbusters de l'histoire du cinema,cet événement plonge petits et grands dans les scénes inspirées du célébre film. ici, le parc imaginaire prend vie...juste sous vos yeux.
 Décourvrez Isla Nublar en classe VIP et explosez Jurassic World. Ecarquillez vos yeux devant l'imposant Brachiosaure: discutrez nez à nez avec un Vélociraptor et approchez-vous du plus mauvais de tous, le terrible Tyrannausaure rex.
-Créée en étroite collaboration avec un pàléontologue renommé, Jack horner,L"exposition est riche en contenu interactifs et éducatif, issus de recherches scentifiques sur L'ADN des dinosaures, autant de découvertes qui on permis a Jurassic World de prendre vie. Quel que soit votre âge, ces créatures préhistoriques incroyables n'auront plus aucun secret pour vous. 
+Créée en étroite collaboration avec un pàléontologue renommé, Jack horner,L"exposition est riche en contenu interactifs et éducatif, issus de recherches scentifiques sur L'ADN des dinosaures, autant de découvertes qui on permis a Jurassic World de prendre vie. Quel que soit votre âge, ces créatures préhistoriques incroyables n'auront plus aucun secret pour vous.
 
 
 Jurassic world: Un voyage à couper le souffle!
@@ -95,6 +95,6 @@ Cité du cinéma
 93200 Saint-Denis
 En Métro: metro ligne 13 (carrefour Pleyel)
 En Bus: Ligne 139 (carrefour Pleyel)
-En Voiture:VIA L4AUTOROUTE A1 'sortie 2 vers Saint-Denis/La plaine/Saint-Denis-Centre) ou via l'autoroute A86 (sortie 8a vers Saint Ouen/Paris-Porte de Clignancourt/Saint-Denis-Pleyel) 
+En Voiture:VIA L4AUTOROUTE A1 'sortie 2 vers Saint-Denis/La plaine/Saint-Denis-Centre) ou via l'autoroute A86 (sortie 8a vers Saint Ouen/Paris-Porte de Clignancourt/Saint-Denis-Pleyel)
 ## ALLEZ, ON RESPIRE BIEN UNE FOIS ...
 ## ... & BON COURAGE A CHACUN !
