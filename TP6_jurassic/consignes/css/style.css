@@ -96,12 +96,15 @@ video {
 }
 
 a {
-  list-style-type: none;
   text-decoration: none;
 }
 
-ul {
-  list-style-type: none;
+/*  N A V  */
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 /*  H E A D E R  */
@@ -129,11 +132,13 @@ header {
 .hdr_liste {
   display: flex;
   justify-content: center;
-  translate: 20px -1015px;
+  translate: 0px -1015px;
   background-color: rgba(0, 0, 0, 0.5);
   height: 100px;
   align-items: center;
-  width: 1800px;
+  width: 100%;
+  list-style-type: none;
+  z-index: 3;
 }
 
 .hdr_liste a {
@@ -156,6 +161,31 @@ header {
 .icon {
   translate: -115px 0px;
   color: white;
+}
+
+/*  A N I M A T I O N S  */
+
+.hdr_liste li a:hover {
+  background-color: aliceblue;
+  transition: 0.5s;
+  padding: 10px;
+  color: black;
+}
+
+.english:hover {
+  background-color: white;
+  transition: 0.5s;
+  padding: 10px;
+}
+
+.box:hover {
+  background-color: rgb(67, 122, 158);
+  transition: 0.5s;
+  padding: 10px;
+}
+
+.box a:hover {
+  color: rgb(67, 122, 158);
 }
 
 /*  M A I N  */
@@ -250,6 +280,7 @@ hr {
 
 .maps {
   translate: 888px -190px;
+  z-index: 2;
 }
 
 /*  L O W   M A I N  */
@@ -284,6 +315,10 @@ footer a {
   color: white;
 }
 
+footer li {
+  list-style-type: none;
+}
+
 /*  M E D I A     Q U E R Y  */
 
 @media (min-width: 1400px) {
@@ -301,5 +336,26 @@ footer a {
 @media (max-width: 760px) {
   .container {
     width: 100%;
+  }
+  .hdr_liste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  .icon {
+    display: none;
+  }
+  .box {
+    width: 200px;
+    translate: -7px;
+    margin-bottom: 10px;
+  }
+  .english {
+    translate: 30px -19px;
+  }
+  header {
+    background-image: url(/consignes/img/wallpapersden_dino.jpg);
+    background-size: contain;
   }
 }
