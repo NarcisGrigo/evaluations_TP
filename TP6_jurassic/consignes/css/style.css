@@ -190,13 +190,17 @@ header {
 
 /*  M A I N  */
 
-.envlope {
-  display: flex;
-  justify-content: space-around;
+.para p{
+  margin-bottom: 20px;
+}
+
+main {
+  width: 100%;
 }
 
 .main_1 {
-  text-align: center;
+  width: 735px;
+  margin: auto;
 }
 
 .main_1 h2 {
@@ -214,6 +218,13 @@ header {
   text-align: center;
 }
 
+.main_2 h3 {
+  margin: auto;
+  width: 435px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
 .main_2 button {
   padding: 10px;
   background-color: #1c5f81;
@@ -222,6 +233,16 @@ header {
 }
 
 /*  M A I N     3  */
+
+.main_3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.tarif {
+  display: flex;
+  justify-content: space-around;
+}
 
 .main_3 button {
   padding: 10px;
@@ -239,49 +260,17 @@ header {
 
 /*  M A I N     4  */
 
-.main_4 h3 {
-  font-size: 40px;
-}
-
-.main_4 img {
-  width: 50px;
-  translate: 0px 5px;
-}
-
-.bus {
-  translate: -10px 6px;
-}
-
-hr {
-  width: 600px;
-  translate: -370px 0px;
-}
 
 /*  M A I N      5  */
 
-.main_5 {
-  translate: 110px 0px;
-}
+/*  M A I N  _  M A P  */
 
-.main_5 h3 {
-  font-size: 40px;
-}
-
-.clock {
-  translate: 0px 5px;
-}
-
-.horaire {
-  translate: 13px;
-  margin-top: 20px;
+.main_map {
+  margin: auto;
 }
 
 /*  M A P  */
 
-.maps {
-  translate: 888px -190px;
-  z-index: 2;
-}
 
 /*  L O W   M A I N  */
 
