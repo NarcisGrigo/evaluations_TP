@@ -93,10 +93,15 @@ video {
   width: 80%;
   margin: auto;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 100px;
 }
 
 a {
   text-decoration: none;
+}
+
+.height {
+  margin-bottom: 200px;
 }
 
 /*  N A V  */
@@ -119,7 +124,7 @@ header {
 }
 
 .climatise {
-  translate: 1560px 110px;
+  translate: 1320px 110px;
 }
 
 .logo {
@@ -234,14 +239,31 @@ main {
 
 /*  M A I N     3  */
 
-.main_3 {
-  display: flex;
-  flex-direction: column;
+.tarifs{
+  width: 550px;
 }
 
-.tarif {
+.btn {
+  margin-bottom: 50px;
+}
+
+.child{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.paras p {
+  margin-bottom: 10px;
+}
+
+.main_3 h3 {
+  margin-bottom: 50px;
+}
+
+#tarif {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: start;
 }
 
 .main_3 button {
@@ -260,8 +282,47 @@ main {
 
 /*  M A I N     4  */
 
+.metro_para {
+  display: flex;
+}
+
+.horaires {
+  translate: -12px;
+}
+
+.flex_hm {
+  display: flex;
+  justify-content: center;
+  translate: 50px 0px;
+}
+
+.map_metro h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  translate: 0px -19px;
+  margin-bottom: 30px;
+}
+
+.bus {
+  translate: 0px 8px;
+  
+}
+
+.mtr {
+  width: 520px;
+}
+
+.mtr p {
+  margin-bottom: 10px;
+}
 
 /*  M A I N      5  */
+
+.metro_img {
+  display: flex;
+  width: 50px;
+}
 
 /*  M A I N  _  M A P  */
 
@@ -269,8 +330,13 @@ main {
   margin: auto;
 }
 
-/*  M A P  */
+.maps {
+  margin-top: 20px;
+}
 
+.clock {
+  translate: 0px 6px;
+}
 
 /*  L O W   M A I N  */
 
